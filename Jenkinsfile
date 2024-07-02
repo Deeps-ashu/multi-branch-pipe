@@ -28,7 +28,7 @@ pipeline {
       stage('Docker Build') {
         steps{
           script{
-            sh 'docker build -t naresh2603/multi:v3 .'
+            sh 'docker build -t deepsashu95/multi-pipe .'
             //sh 'docker images'
           }
         }
